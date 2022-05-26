@@ -204,6 +204,7 @@ a {
 .team-box-wrapper {
     display: flex;
     width: 100%;
+    flex: 1 .5 100%;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: var(--primary-color);
@@ -266,7 +267,11 @@ a {
 }
 
 .treatments-box-image-wrapper {
+    display: flex;
     position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 400px;
     padding-bottom: 3rem;
     border: #B4D9D2 solid 3px;
@@ -291,12 +296,6 @@ a {
     font-weight: 200;
     color: var(--dark-color);
     margin-bottom: 4rem;
-}
-
-.treatments-box-image-wrapper .btn {
-    display: flex;
-    margin: auto;
-
 }
 
 /* Footer */
